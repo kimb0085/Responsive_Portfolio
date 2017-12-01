@@ -185,10 +185,9 @@ button {
 
 .portconnect {
 	clear: both;
-	float: right;
 	width: 270px;
 	position: absolute;
-	margin-left: 700px;
+	right: 310px;
 }
 
 .social {
@@ -250,6 +249,10 @@ footer {
   .portconnect {
     margin-top: 40px;
   }
+
+  .portconnect {
+  	position: static;
+  }
 }
 
 /* Additional Screen Sizes */
@@ -279,6 +282,10 @@ footer {
   .portconnect {
     margin-top: 40px;
   }
+
+  .portconnect {
+  	position: static;
+  }
 }
 
 /* Width at 168px and below */
@@ -305,5 +312,9 @@ footer {
   .connect,
   .portconnect {
     margin-top: 40px;
+  }
+
+  .portconnect {
+  	position: static;
   }
 }
